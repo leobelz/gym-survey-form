@@ -1,0 +1,106 @@
+/*color palette
+Form Background - #121212E9 (Charcoal Black)
+Primary Text - #EDEDED (Off-White)
+Secondary Text - #87CEFA (Light Blue)
+Accent Color: #FF6F20 (Bright Orange)
+Secondary Accent: #B3B3B3 (Light Gray)
+*/
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-size: 16;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #EDEDED;
+  background-image: url(https://i.pinimg.com/1200x/1d/a9/f4/1da9f408baa811053642c43294861dd7.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+  font-size: 40;
+  font-family: Montserrat;
+}
+
+p {
+  font-size: 24;
+  font-family: Montserrat;
+}
+
+.heading {
+  width: 80%;
+  max-width: 900px;
+  min-width: 100px;
+  margin: 30px auto;
+  text-shadow: 2px 2px 3px #111111;
+  font-weight: bold;
+  color: #87CEFA
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  padding: 1px 20px;
+  max-width: 900px;
+  min-width: 300px;
+  background-color: #121212E9;
+  padding-bottom: 2em;
+  border-radius: 12px;
+}
+
+fieldset {
+  border: none;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 6px;
+  border: 0 solid #EDEDED;
+  background-color: #EDEDED;
+  padding: 8px 10px
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  min-height: 0;
+}
+
+.written-review {
+  font-size: 16;
+  font-family: Helvetica;
+}
+
+.inline {
+  width: unset;
+  vertical-align: 0;
+  margin: 0 0.5em 0 0;
+}
+
+
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1em;
+  background-color: #FF6F20;
+  color: #EDEDED;
+  border: 0px solid #FF6F20;
+}
